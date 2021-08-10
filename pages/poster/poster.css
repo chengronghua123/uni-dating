@@ -1,0 +1,32 @@
+.introduce{
+	font-size: 28rpx;
+}
+.poster-shade{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(99,99,99,0.7);
+}
+
+.poster-shade .poster-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.save-or-share{
+	margin-top: 20rpx;
+	text-align: center;
+}
+.save-btn{
+	font-size: 28rpx;
+}
+.save-or-share .btnleft{
+	float: left;
+}
+.save-or-share .btnright{
+	float: right;
+}

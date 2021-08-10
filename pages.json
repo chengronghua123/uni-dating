@@ -1,0 +1,28 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/poster/poster",
+			"style": {
+				"navigationBarTitleText": "生成海报"
+			}
+		}
+	    ,{
+            "path" : "pages/compress/compress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "h5图片压缩",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		// "navigationBarTextStyle": "black",
+		"navigationBarTitleText": "自嗨码农",
+		"navigationBarBackgroundColor": "#9cdbfc",
+		"backgroundColor": "#ebebeb"
+	}
+}
