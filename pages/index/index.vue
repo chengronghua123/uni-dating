@@ -18,7 +18,9 @@
 			};
 		},
 		onLoad(options) {
-
+			uni.navigateTo({
+				url:"../login/login"
+			})
 		},
 		created() {
 
@@ -42,14 +44,5 @@
 </script>
 
 <style lang="scss" scoped>
-.main-page{
-	.btns{
-		padding: 20rpx;
-	}
-	.btn{
-		display: inline-block;
-		font-size: 28rpx;
-		margin-right: 20rpx;
-	}
-}
+	@import "./index.scss"
 </style>
